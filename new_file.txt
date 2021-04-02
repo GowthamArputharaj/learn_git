@@ -1,3 +1,5 @@
 This is new File..G
 
 Edited by G.
+
+New Line Gowtham check git diff and git diff --staged
