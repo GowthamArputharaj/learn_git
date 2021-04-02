@@ -5,8 +5,71 @@ Gowtham Here
 
 end
 
-
 From Gowtham [V S Branch]...
 
 From Gowtham [auth].....
+
+#git #log
+C:\xampp\htdocs\projects\test\learn_git>git log --all --decorate --oneline --graph
+*   da4bf15 (HEAD -> main) Merge branches 'sdn' and 'vsbranch'
+|\
+| * ee44145 (vsbranch) from VSbranch
+* | 2b4b66a (sdn) from SDn
+|/
+* 6460658 (auth) abcd
+* d23fdb5 restore new_file.txt
+* 4dae9d9 git diff --staged
+* 3cbd980 New FIle has New Line Bingo...
+* 1cc0dc6 (origin/main, origin/HEAD) folder structure
+* ed4b2f9 remove new_file.txt Switch new_file.txt was decommissioned
+* f59621f new Line
+* b37d949 new files
+* 3641b9f Initial commit
+
+
+#detached #head
+HEAD is pointing to commit hash intead of branch
+Just checkout to any branch and it will be fine
+
+git checkout <branch name>
+
+
+git branch <new branch name>
+
+git add .
+git add new*
+git add new_file.txt
+
+git commit
+git commit -m "commit message"
+
+git commit -a -m "commit message with staging"
+
+git branch
+git branch -a
+git branches
+
+git branch -d "branch name"
+git branch -D "branch name"
+
+Create many branches, merge them and commit new 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
